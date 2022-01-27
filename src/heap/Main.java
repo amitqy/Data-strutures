@@ -24,7 +24,7 @@ public class Main {
         }
         System.out.println();
         int initialHeapSize = heapSize;
-        /** calling poll on heap 'heapSize' times can be thought of as heapSort -> O(lLog(n)) **/
+        /** calling poll on heap 'heapSize' times can be thought of as heapSort -> O(nlog(n)) **/
         System.out.println("Sorted array: ");
         for (int i = 0; i < initialHeapSize; i++) {
             System.out.print(poll(arr) + " ");
