@@ -23,6 +23,7 @@ public class Main {
             arr = newArray;
         }
         else{
+
             arr[currIndex] = element;
             currIndex++;
             size++;
